@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-edit"></i> Input Data</h1>
+        <form id="data-form">
+            <label for="student">Pilih Siswa:</label>
+            <select id="student" required></select>
+
+            <label for="item">Barang:</label>
+            <select id="item" required>
+                <option value="INFOCUS 1">INFOCUS 1</option>
+                <option value="INFOCUS 2">INFOCUS 2</option>
+                <option value="INFOCUS 3">INFOCUS 3</option>
+                <option value="INFOCUS 4">INFOCUS 4</option>
+                <option value="INFOCUS 5">INFOCUS 5</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+        <a href="return.html" class="btn"><i class="fas fa-undo"></i> Halaman Pengembalian</a>
+        <table id="info-table">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Kelas</th>
+                    <th>Foto</th>
+                    <th>Barang</th>
+                    <th>Batas Waktu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data akan ditambahkan di sini -->
+            </tbody>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

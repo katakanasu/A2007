@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-sign-in-alt"></i> Login</h1>
+        <form id="login-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            <label for="class">Kelas:</label>
+            <input type="text" id="class" required>
+            <button type="submit">Login</button>
+            <p id="login-error" class="error-message" style="display:none;">Nama atau Kelas tidak valid.</p>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
